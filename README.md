@@ -4,31 +4,20 @@ This project was conducted at the [Machine Learning and Data Analytics Lab](http
 Department of Computer Science Friedrich-Alexander-University Erlangen-Nuremberg (FAU) 
 
 
-
 Getting Started
 ====
 1. Clone this repo 
 
-2. Create new environment using the environment.yml  
-====
-'conda env create -f environment.yml' 
+2. Create new environment using the environment.yml --> 'conda env create -f environment.yml' 
 [Link](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 
-3. Install src in the new environment
-====
-'pip install .'
+3. Install src in the new environment -->'pip install -e.'
 
-4. Hyperparameter_Tuning, training, test, evaluation
-====
-Run main.py 
+4. Hyperparameter_Tuning, training, test, evaluation: Run main.py 
 
-5. Best hyperparameters list for each model
-====
-Run  Gridsearch.py 
+5. Best hyperparameters list for each model: Run  Gridsearch.py 
 
-6. Validation loss plots for the complete hyperparameter tuning
-====
-Run Plot_hyper.py 
+6. Validation loss plots for the complete hyperparameter tuning: Run Plot_hyper.py 
 
 
 
